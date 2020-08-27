@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/style.css" type="text/css" rel="stylesheet"/>
+    <title>Tech Comapanies</title>
+  </head>
+  <body>
+      <h1>Top tech companies in Nigeria</h1>
+      <h4>kindly input the names,year established,mission, CEOs and locations<br/> of the ones you know</h4>
+      <form action="/info/add" method="POST" id="add">
+        <label for="name">Company Name</label>
+        <input type="text" name="name">
+        <br/>
+        <br/>
+        <label for="year">Year Established</label>
+        <input type="number" name="year">
+        <br/>
+        <br/>
+        <label for="mission">Mission</label>
+        <input type="text" name="mission">
+        <br/>
+        <br/>
+        <label for="ceo">C.E.O</label>
+        <input type="text" name="ceo">
+        <br/>
+        <br/>
+        <label for="location">location</label>
+        <input type="text" name="location">
+        <br/>
+        <br/>
+        <input type="submit" value="ADD">
+        <br/>
+        <br/>
+      </form>
+      <br/>
+      <form action="/info/delete" method="POST">
+        <label for="delete">Delete by Id</label>
+        <input type="text" name="delete">
+        
+
+        <input type="submit" value="DELETE">
+
+      </form>
+      <br/>
+        <br/>
+      <form action="/info/update" method="POST" id="update">
+        <label for="oldname">Old Name</label>
+        <input type="text" name="oldname">
+        <label for="newname">New Name</label>
+        <input type="text" name="newname">
+        <br/>
+        <br/>
+        
+        <label for="newyear">New Year</label>
+        <input type="text" name="newyear">
+        <br/>
+        <br/>
+        
+        <label for="newmission">New Mission</label>
+        <input type="text" name="newmission">
+        <br/>
+        <br/>
+        
+        <label for="newceo">New C.E.O</label>
+        <input type="text" name="newceo">
+        <br/>
+        <br/>
+        
+        <label for="newlocation">New Location</label>
+        <input type="text" name="newlocation">
+        <br/>
+        <br/>
+        <input type="submit" value="UPDATE">
+
+      </form>
+      <br/>
+        <br/>
+        <br/>
+        <br/>
+      <form action="/info/get" method="GET">
+          <input type="submit" value="SUBMIT" id="results">
+  
+      </form>
+
+  </body>
+  </html>

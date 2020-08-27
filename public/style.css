@@ -1,0 +1,46 @@
+body{
+    color:black;
+    text-align: center;
+    background-color: gold;
+    text-align: center;
+    padding-bottom:230px;
+    padding-top:15px;
+    font-size: 24px;
+}
+
+#results{
+    background-color:#fefe;
+    color: black;
+    padding: 15px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight:bold;
+}
+
+h1{
+    font-size: 48px;
+    font-family: 'Russo One', sans-serif;
+}
+h4{
+  font-size:25px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#add{
+    position: relative;
+    text-align: center;
+    width:55%;
+    border: 2px solid black;
+    left:25%;
+    padding-top: 15px;
+
+}
+#update{
+    position: relative;
+    text-align: center;
+    width:55%;
+    border: 2px solid black;
+    left:25%;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}

@@ -1,0 +1,41 @@
+{
+  "name": "tech-companies",
+  "version": "1.0.0",
+  "description": "Tech companies",
+  
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel app.js --out-dir build",
+    "dev-start": "babel-watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donaldcrane/tech-companies.git"
+  },
+  "author": "donald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donaldcrane/tech-companies/issues"
+  },
+  "homepage": "https://github.com/donaldcrane/tech-companies#readme",
+  "dependencies": {
+    "@babel/core": "^7.11.4",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "g": "^2.0.1",
+    "moment": "^2.27.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "pg": "^8.3.2",
+    "postgres": "^1.0.2",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^7.0.0"
+  }
+}
